@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "crowdsense_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "listener.js",
+  "scripts": {
+    "start": "node listener.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-appwrite": "^21.1.0",
+    "twilio": "^5.11.2"
+  }
+}
