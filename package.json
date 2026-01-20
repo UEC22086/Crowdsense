@@ -3,9 +3,9 @@
   "name": "crowdsense_ai",
   "version": "1.0.0",
   "description": "",
-  "main": "listener.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node listener.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +16,4 @@
     "twilio": "^5.11.2"
   }
 }
+
