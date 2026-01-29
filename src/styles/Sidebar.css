@@ -1,0 +1,19 @@
+.sidebar {
+  width: 250px;
+  background: #0a2540;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+.logo {
+  margin-bottom: 30px;
+}

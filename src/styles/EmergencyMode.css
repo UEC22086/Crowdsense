@@ -1,0 +1,57 @@
+.emergency-container {
+  padding: 40px;
+  text-align: center;
+  background: #fff3f3;
+  min-height: 100vh;
+}
+
+.emergency-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 450px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.severity {
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.severity.normal {
+  background: #d4edda;
+  color: #155724;
+}
+
+.severity.high {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.severity.critical {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.alert-box {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dashboard-btn {
+  margin-top: 25px;
+  background: #dc3545;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

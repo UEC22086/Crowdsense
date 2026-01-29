@@ -1,0 +1,46 @@
+.splash-container {
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeOut 0.8s ease-in-out forwards;
+  animation-delay: 2.6s;
+}
+
+.splash-logo-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+  animation: popIn 1s ease;
+}
+
+.splash-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0a2540; /* dark blue */
+}
+
+.splash-subtitle {
+  font-size: 14px;
+  color: #4db6ac; /* teal */
+  margin-top: 6px;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}

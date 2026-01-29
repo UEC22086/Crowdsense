@@ -1,0 +1,98 @@
+.dashboard-container {
+  padding: 20px;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0b3c5d;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 30px;
+}
+
+.alerts-section {
+  margin-top: 10px;
+}
+
+.alert-card {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.alert-card.high {
+  background: #ffcccc;
+  color: #a10000;
+}
+
+.graph-box {
+  height: 200px;
+  background: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zone-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  background: white;
+}
+
+.zone-table th,
+.zone-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.status.normal {
+  color: green;
+}
+
+.status.medium {
+  color: orange;
+}
+
+.status.high {
+  color: red;
+}
+
+.mode-box {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mode-box.private {
+  background: #eafff2;
+}
+
+.mode-box.public {
+  background: #e3f2fd;
+}
+
+.mode-box.emergency {
+  background: #ffeaea;
+}
